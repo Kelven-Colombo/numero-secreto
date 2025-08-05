@@ -1,3 +1,8 @@
+// Definindo o range do jogo:
+const min = 1;
+const max = 100;
+// -----------------------------------------------------------------------------
+
 function exibirTextoNaTela(tag, texto){
     let campo = document.querySelector(tag);
     campo.innerHTML = texto;
@@ -6,8 +11,8 @@ function exibirTextoNaTela(tag, texto){
 
 function exibirMensagemInicial(){
     exibirTextoNaTela("h1", "Jogo do Número Secreto");
-    exibirTextoNaTela("p", "Escolha um número entre 1 e 100");
-    
+    exibirTextoNaTela("p", `Escolha um número entre ${min} e ${max}`);
+
 }
 
 // ------------------------------------------------------------
@@ -44,8 +49,6 @@ function gerarNumeroAleatorio(min, max){
 }
 
 // ---------------------------------------------------
-const min = 1;
-const max = 100;
 let numeroAleatorio = gerarNumeroAleatorio(min,max);
 // ---------------------------------------------------
 
