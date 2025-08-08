@@ -1,6 +1,6 @@
 // Definindo o range do jogo:
 const min = 1;
-const max = 100;
+const max = 50;
 // -----------------------------------------------------------------------------
 
 function exibirTextoNaTela(tag, texto){
