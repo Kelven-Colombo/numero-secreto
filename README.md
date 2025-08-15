@@ -10,6 +10,9 @@
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
 </div>
 
-<a href="https://github.com/Kelven-Colombo">
-  <img src="./img/foto_perfil.jpg" alt="Autor do projeto" width="150">
-</a>
+<figure>
+  <a href="https://github.com/Kelven-Colombo">
+    <img src="./img/foto_perfil.jpg" alt="Autor do projeto" width="150">
+  </a>
+  <figcaption align="center">Kelven Colombo - Autor do projeto</figcaption>
+</figure>
