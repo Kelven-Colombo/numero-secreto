@@ -10,4 +10,6 @@
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
 </div>
 
-[![Autor do projeto](./img/foto_perfil.jpg)](https://github.com/Kelven-Colombo)
+<a href="https://github.com/Kelven-Colombo">
+  <img src="./img/foto_perfil.jpg" alt="Autor do projeto" width="150">
+</a>
